@@ -25,5 +25,33 @@ h1, h2 {
     letter-spacing: 0.1em;
     font-size: 300%;
     float: left;
+    padding-top: 0.5% ;
+}
 
+/*NAV Links*/
+
+#menu{
+    font-size: 90%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 0.5rem;
+    padding-top: 1.5% ;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+
+.active{
+    color: aqua;
+    border-bottom: 2px solid aqua;
 }
