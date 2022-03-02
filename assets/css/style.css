@@ -70,11 +70,11 @@ h1, h2 {
     height: 37.5em;
     width: 100%;
     background-image: url("../images/DC.webp");
-    background-position: center; 
+    background-position: center center; 
     background-repeat: no-repeat; 
-    background-size: contain;
-    overflow: hidden;
-}
+    background-size: cover;
+
+}R
 
 #cover-note {
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
