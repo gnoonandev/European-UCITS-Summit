@@ -52,13 +52,13 @@ h1, h2 {
 }
 
 #menu a:hover {
-    color: aqua;
-    border-bottom: 2px solid aqua;
+    color: #2b6777;
+    border-bottom: 2px solid #2b6777;
 }
 
 .active{
-    color: aqua;
-    border-bottom: 2px solid aqua;
+    color: #2b6777;
+    border-bottom: 2px solid #2b6777;
 }
 
 /*Background Image*/
@@ -74,4 +74,18 @@ h1, h2 {
     background-repeat: no-repeat; 
     background-size: cover;
 
+}
+
+/*About Us Section */
+#about-us{
+    height: 28.5em ;
+    width: 100%;
+    background-color: #c8d8ec ;
+}
+
+p {
+    display: block;
+    width: 600px;
+    height: 300px;
+    padding: 5px;
 }
