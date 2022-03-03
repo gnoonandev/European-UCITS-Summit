@@ -83,6 +83,8 @@ h1, h2 {
     background-color: #c8d8ec ;
 }
 
+/* trying to block wording on left and slide show on right */
+
 p {
     display: block;
     width: 600px;
