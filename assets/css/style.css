@@ -33,6 +33,9 @@ h1, h2 {
     background: color #f2f2f2;;
     width: 100%;
     height: 4.8em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 #menu, #logo {
@@ -114,7 +117,7 @@ h1, h2 {
 
 .about-left{     
     display: block;
-    width: 900px;
+    width: 56.250em;
     height: 300px;
     padding: 1px 0 0 75px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
