@@ -166,15 +166,15 @@ h1, h2 {
     background-color: #fff;
     padding: 66px 0 44px 0;
     min-width: 60em;
-    height: 28.5em ;
+    height: 25.5em ;
 }
 
 .row {
     display: flex;
     justify-content: center;
     gap: 200px;
-    padding-left: 450px;
-    padding-right: 450px;
+    padding-left: 350px;
+    padding-right: 350px;
 }
 
 
@@ -203,8 +203,41 @@ h1, h2 {
     line-height: 25px;
 }
 
-img{
-    max-width: 100%;
-    max-height: 100%;
+#image1{
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
 }
 
+#image2{
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#image3{
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*footer*/
+
+footer {
+    background-color: #c8d8e4;
+     max: height 6px;.5em ;
+}
+
+#copyright {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#menu i {
+    font-size: 250%;
+}
+footer a h1 {
+    padding-top: 20px;
+}
