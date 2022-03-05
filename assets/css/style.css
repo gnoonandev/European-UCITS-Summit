@@ -5,6 +5,12 @@
     border: none;
 }
 
+h1, h2, h3, h4, h5, h6, {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: #52ab98;
+}
+
 body {
      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
      font-weight: 300;
@@ -89,7 +95,7 @@ h1, h2 {
 #cover-note{
     max-height: 180px;
     width: 400px;
-    background-color: rgba(242, 242, 242, .8);
+    background-color: rgba(242, 242, 242, .7);
     position: absolute;
     left: 40%;
     right: 50%;
@@ -186,7 +192,7 @@ h1, h2 {
     background-color: #fff;
     padding: 66px 0 44px 0;
     min-width: 60em;
-    height: 25.5em ;
+    height: 28.5em ;
     position: relative;
 }
 
@@ -297,11 +303,36 @@ footer a h1 {
 }
 
 #venue-header{
-
-    
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: #52ab98;
 }
 
+#address{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 3px;
+}
 
+/*Ticket Page*/
+
+
+
+#ticket-head {
+    padding-top: 1.5%;
+}
+
+#ticket-why{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 3px;
+}
+
+#ticket-list{
+    padding-left: 8.5%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 3px;
+
+
+}
 
 
 
