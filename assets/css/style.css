@@ -308,7 +308,7 @@ footer a h1 {
     color: #52ab98;
 }
 
-#address{
+.address{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
     letter-spacing: 3px;
 }
@@ -361,5 +361,6 @@ label {
     border-radius: 3.125em;
     padding: 5px 20px ;
     text-transform: uppercase;
-
 }
+
+/*Schedaule Page*/
