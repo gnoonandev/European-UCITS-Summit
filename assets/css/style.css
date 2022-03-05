@@ -82,7 +82,27 @@ h1, h2 {
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    position: relative;
+}
 
+/* Cover note Hero Image */
+#cover-note{
+    max-height: 180px;
+    width: 400px;
+    background-color: rgba(242, 242, 242, .8);
+    position: absolute;
+    left: 40%;
+    right: 50%;
+    top: 50%;
+    bottom: 10%;
+    text-align: center;
+    padding-top: 55px;
+}
+
+#cover-header{
+    font-size: 280%;
+    color: #52ab98;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .ticket-button{
@@ -238,6 +258,7 @@ footer {
 #menu i {
     font-size: 250%;
 }
+
 footer a h1 {
     padding-top: 20px;
 }
