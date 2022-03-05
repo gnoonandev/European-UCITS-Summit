@@ -373,3 +373,26 @@ label {
     position: relative;
 }
 
+.timerow{
+    padding: 0.5rem;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #52ab98;
+}
+
+.offset {
+    color: lightgrey;
+}
+
+a:link { text-decoration: none; }
+
+.para-sec{
+    color: #52ab98;
+    letter-spacing: 3px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.secondrow{
+    padding-left: 35px;
+}
