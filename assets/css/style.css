@@ -364,3 +364,12 @@ label {
 }
 
 /*Schedaule Page*/
+
+.midrow-sec{
+    background-color: #fff;
+    padding: 66px 0 44px 0;
+    min-width: 60em;
+    height: 38.5em ;
+    position: relative;
+}
+
