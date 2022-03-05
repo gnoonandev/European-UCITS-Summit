@@ -187,6 +187,7 @@ h1, h2 {
     padding: 66px 0 44px 0;
     min-width: 60em;
     height: 25.5em ;
+    position: relative;
 }
 
 .row {
@@ -262,3 +263,41 @@ footer {
 footer a h1 {
     padding-top: 20px;
 }
+
+/*Venue Page*/
+
+.description{
+    height: 20.5em ;
+    width: 100%;
+    background-color: #2b6777;
+    position: relative;  
+}
+
+.middle-des{
+    display: block;
+    width: 56.250em;
+    height: 300px;
+    padding: 1px 0 0 75px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    position: absolute;
+    top: 25px;
+    left: 27%;
+}
+
+.mid-pos{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+
+
+
+
+
