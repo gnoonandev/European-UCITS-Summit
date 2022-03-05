@@ -315,8 +315,6 @@ footer a h1 {
 
 /*Ticket Page*/
 
-
-
 #ticket-head {
     padding-top: 1.5%;
 }
@@ -330,9 +328,38 @@ footer a h1 {
     padding-left: 8.5%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
     letter-spacing: 3px;
-
-
 }
 
+/* form to register for ticket*/
 
+form{
+    padding-right: 3%;
+    border: 3px solid #52ab98;
+    padding: 2rem;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+}
 
+input{
+    width: 300px;
+    border: 2px solid #52ab98;
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+
+label {
+    margin: 1rem 0 .25rem;
+    text-transform: uppercase;
+}
+
+#register{
+    background-color: #52ab98;
+    color: #fff;
+    font-size: 100%;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+
+    border: solid 2px #52ab98;
+    border-radius: 3.125em;
+    padding: 5px 20px ;
+    text-transform: uppercase;
+
+}
