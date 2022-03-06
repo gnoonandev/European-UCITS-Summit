@@ -37,19 +37,6 @@ h1, h2 {
     background-color: #52ab98;   
 }
 
-#logo1{
-    font-size: 200%;
-    float: left;
-    letter-spacing: 1px;
-    margin-left: 0.5em;
-    color: #f2f2f2;
-    
-    background-color: rgb(82,171,152, 0.4);
-    padding: 0.8rem;
-}
-
-/*footer  fix*/
-
 .logo-footer{
     padding-top: 35px;
 }
@@ -505,4 +492,10 @@ a:link { text-decoration: none; }
     color: #52ab98;
     letter-spacing: 1.5px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+.table-border{
+    border: 3px solid #52ab98;
+    padding:1rem;
 }
