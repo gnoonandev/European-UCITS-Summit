@@ -420,48 +420,67 @@ a:link { text-decoration: none; }
 
 #speaker1{
     background-color:rgb(211,211,211, 0.4);
-    width: 14.3%;
-    height: 20rem;
+    border: 1px solid rgb(211,211,211) ;
+    width: 10.5%;
+    height: 15em;
     position: absolute;
     left: 10.5%;
+    padding: 15px 0 0 22px;
 }
 
 #speaker2{
     background-color:rgb(211,211,211, 0.4);
-    width: 14.3%;
-    height: 20rem;
+    border: 1px solid rgb(211,211,211) ;
+    width: 10.5%;
+    height: 15em;
     position: absolute;
+    padding: 15px 0 0 22px;
     left: 40.5%;
 }
 
 #speaker3{
     background-color:rgb(211,211,211, 0.4);
-    width: 14.3%;
-    height: 20rem;
+    border: 1px solid rgb(211,211,211) ;
+    width: 10.5%;
+    height: 15em;
     position: absolute;
+    padding: 15px 0 0 22px;
     left: 70.5%;
 }
 
 #speaker4{
     background-color:rgb(211,211,211, 0.4);
-    width: 14.3%;
-    height: 20rem;
+    border: 1px solid rgb(211,211,211) ;
+    width: 10.5%;
+    height: 15em;
     position: absolute;
-    right: 75%;
+    padding: 15px 0 0 22px;
+    right: 77.5%;
 }
 
 #speaker5{
     background-color:rgb(211,211,211, 0.4);
-    width: 14.3%;
-    height: 20rem;
+    border: 1px solid rgb(211,211,211) ;
+    width: 10.5%;
+    height: 15em;
     position: absolute;
-    right: 45%;
+    padding: 15px 0 0 22px;
+    right: 47.5%;
 }
 
 #speaker6{
     background-color:rgb(211,211,211, 0.4);
-    width: 14.3%;
-    height: 20rem;
+    border: 1px solid rgb(211,211,211) ;
+    width: 10.5%;
+    height: 15em;
     position: absolute;
-    right: 15%;
+    padding: 15px 0 0 22px;
+    right: 17.5%;
+}
+
+.img-speaker{
+    border: 3px solid #52ab98;
+    border-radius: 50%;
+    width: 65%;
+    height: 65%;
 }
