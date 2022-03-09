@@ -533,6 +533,11 @@ a:link { text-decoration: none; }
     padding-top: 10rem;
 }
 
+#head-word{
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
 #word{
     letter-spacing: 1.5px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
