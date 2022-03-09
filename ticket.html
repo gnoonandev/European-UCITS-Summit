@@ -13,10 +13,10 @@
 <body>
     <header> 
             <a href="index.html">
-                <h1 id="logo"> GUS</h1>
+                <h1 class="logo"> GUS</h1>
             </a>
         <nav>
-            <ul id="menu">
+            <ul class="menu">
                 <li>
                     <a href="venue.html"> Venue </a>
                 </li>
@@ -61,7 +61,6 @@
     </section>
     <section class="mid-row mid-pos">
         <div class="content-mid">
-            <p>
                 <h2 id="venue-header"> Purchase a Global UCITS Summit Pass</h2>
                 <br><br>
                 <p id="ticket-why"> Purchase your Global UCITS Summit pass using the form to the right. Multiple passes my be purchased within the same order. <br><br> So feel free to bring
@@ -70,38 +69,38 @@
                 <h4>Why Attend?</h4>
                 <br>
                     <ul id="ticket-list">
-                        <li>Over 100 industry speakers</li>
+                        <li>Over 50 industry speakers</li>
                         <li>Two full days of presentations and workshops</li>
                         <li>Latest industry knowledge</li>
                         <li>Opportunity to Network with like-minded people and industry peers </li>
                     </ul>  
-            </p>
         </div>
         <div>
-            <form action="results.html" method="POST">
+            <form action="thankyou.html" method="GET">
                 <fieldset>
                     <div>
-                        <label for="name"> <h4>First Name </h4></label>
-                        <input name="name" id="name"type="text"required> 
+                        <label for="name">  <span>First Name</span></label>
+                        <input name="name" id="name" type="text" required> 
                     </div><br>
                     <div>
-                        <label for="surename"> <h4>Surename </h4></label>
-                        <input name="surename" id="surename"type="text" required>
+                        <label for="surename"> <span>Surename</span> </label>
+                        <input name="surename" id="surename" type="text" required>
                     </div><br>
                     <div>
-                        <label for="email"> <h4>Email </h4></label>
-                        <input name="email address" id="eamil" type="email" placeholder="Email Address" required> 
+                        <label for="email"> <span> Email </span></label>
+                        <input name="email address" id="email" type="email" placeholder="Email Address" required> 
                     </div><br>
                     <div>
-                        <label for="pw"> <h4>Password </h4> </label>
-                        <input name="password" id="pw"type="password" placeholder="Password" required>
+                        <label for="pw"> <span>Password</span> </label>
+                        <input name="password" id="pw" type="password" placeholder="Password" required>
                     </div><br>
                     <div> 
-                        <label for="conpw"> <h4>Confrim Passowrd </h4> </label>
+                        <label for="conpw"> <span> Confrim Passowrd </span></label>
                         <input name="password confrim" id="conpw" type="password" placeholder="Password Confrimation" required>
                     </div><br>
                     <div>
-                        <label><h4>Number of Tickets </h4></label>
+                        <label><span> Number of Tickets </span></label>
+                        <br>
                         <select name="quantity" required>
                             <option vlaue="1" selected>1</option>
                             <option value="2">2</option>
@@ -119,13 +118,13 @@
     <footer>
         <div class="logoft">
             <a href="index.html">
-               <h1 id="logo"> GUS</h1>
+               <h1 class="logo"> GUS</h1>
            </a>
        </div>
         <h5 id="copyright"> 
         © Copyright - Global UCITS Summit 2022
         </h5>
-        <ul id="menu" id="social-media">
+        <ul class="menu" >
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i>
