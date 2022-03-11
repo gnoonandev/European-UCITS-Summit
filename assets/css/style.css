@@ -545,6 +545,178 @@ a:link { text-decoration: none; }
 
 
 
+/*******/
+@media screen and (max-width: 1740px){
+
+    .menu{
+        margin-right: 1.875em;
+        letter-spacing: 3px;
+        width: 1740px;
+        height: 5.2em;
+    }
+
+    #main-image{
+        height: 38.5em;
+        width: 1740px;
+        background-image: url("../images/dublincit.jpg");
+        background-position: center center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        position: relative;
+    }
+
+    #about-us{
+        height: 33.5em ;
+        width: 1740px;
+        background-color: #2b6777;
+        position: relative;  
+        border: 0px;
+    }
+
+    .about-left{     
+        display: block;
+        width: 970px;
+        height: 300px;
+        padding: 1px 0 0 55px;
+        font-size: 15px;
+        position: absolute;
+        top: 25px;
+    }
+
+/*About Us Section right */
+    #slide-position{
+        float: right;
+        display: inline-block;
+        width: 685px;
+        height: 33.5em;
+        justify-content: flex-end;
+        background-color: #c8d8e4; 
+        border: 0px;
+        position: relative
+    }
+
+    #about-image {
+        max-width: 35rem;
+        margin-right: 500px;
+        position: absolute;  
+        max-height: 500px;
+        top: 5em;
+        left: 4em;
+    }
+   /*  Mid Row -landing Page Section*/
+    
+    .mid-row{
+        padding: 66px 0 44px 0;
+        width: 1740px;
+        height: 32.5em ;
+        position: relative;
+    }
+
+    .row {
+        display: flex;
+        gap: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-left: 45px;
+    }
+
+    #pos-right{
+        margin-left: 65px;
+}
+
+/*footer*/
+
+    footer {
+        background-color: #c8d8e4;
+        position: relative;
+        width: 1740px;
+    }
+
+/*about section on Venue / Seheduale / Ticket / Speaker page*/
+    .description{
+        height: 24.5em ;
+        width: 1740px;
+    }
+
+    .middle-des{
+        width: 775px;
+        height: 300px;
+        padding: 1px 34px 0 25px;
+        position: absolute;
+        top: 25px;
+        left: 25%;
+        
+    }
+
+    .about-head {
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3.5px;
+        color: white;
+        font-size: 25px ;
+        font-weight: 100;
+        position: relative;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+      
+/* ticket page / form section */
+
+    #ticket-why{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px;
+        margin-left: 125px;
+    }
+
+    #ticket-list{
+        padding-left: 8.5%;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px;
+        margin-left: 135px;
+    }
+
+    #venue-header{
+        margin-left: 125px;
+    }
+
+    #why{
+        margin-left: 125px;
+    }
+
+    form{
+        padding-right: 4%;
+        border: 3px solid #52ab98;
+        padding: 2rem;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        margin-right: 150px;
+    }
+
+    /*Schedaule Page*/
+
+    .midrow-sec{
+        width: 1200px;
+        margin: 0 50px 0 50px; 
+        margin: 0 0 0 300px;   
+        gap: 250px;
+    }
+
+    /*Speakers page*/
+
+    #speaker2{
+        height: 18.5rem;
+    }
+
+
+
+
+
+}
+
+
+
+
 /*For Larger to Medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px){
 
@@ -595,8 +767,8 @@ a:link { text-decoration: none; }
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
         letter-spacing: 3px;
         color: white;
-        font-size: 13px;
-        font-weight: 100;s
+        font-size: 14px;
+        font-weight: 100;
         position: absolute;
         top: 25px;
     }
@@ -610,7 +782,7 @@ a:link { text-decoration: none; }
         position: relative;
     }
 
-/*About Us Section right */
+    /*About Us Section right */
     #slide-position{
         float: right;
         display: inline-block;
@@ -636,7 +808,7 @@ a:link { text-decoration: none; }
     .mid-row{
         background-color: #fff;
         padding: 66px 0 44px 0;
-        widows: 1200px
+        width: 1200px;
         height: 32.5em ;
         position: relative;
     }
@@ -660,7 +832,7 @@ a:link { text-decoration: none; }
         width:1200px;
     }
 
-    /*Venue page*/
+    /* about section on Venue / Schedaule / Ticket / Speaker page*/
 
     .description{
         height: 22.5em ;
@@ -676,28 +848,49 @@ a:link { text-decoration: none; }
         left: 15%;
     }
     
+    /* ticket page / form section */
+
+    #ticket-why{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px;
+        margin-left: 100px;
+    }
     
+    #ticket-list{
+        padding-left: 8.5%;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px;
+        margin-left: 115px;
+    }
 
-   
+    #venue-header{
+        margin-left: 100px;
+    }
 
+    #why{
+        margin-left: 100px;
+    }
 
+    form{
+        padding-right: 3%;
+        border: 3px solid #52ab98;
+        padding: 2rem;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        margin-right: 50px;
+    }
 
+    /*Schedaule Page*/
 
+    .midrow-sec{
+        width: 1000px;
+        margin: 0 45px 0 65px;    
+    }
 
+    /*Speakers page*/
 
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
+    #speaker2{
+        height: 18.5rem;
+      
+    }
 }
     
