@@ -542,3 +542,162 @@ a:link { text-decoration: none; }
     letter-spacing: 1.5px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
+
+
+/*For Larger to Medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px){
+
+    .menu{
+        margin-right: 1.875em;
+        letter-spacing: 3px;
+        width: 1200px;
+        height: 5.2em;
+    }
+
+    #main-image{
+        height: 38.5em;
+        width: 1200px;
+        background-image: url("../images/dublincit.jpg");
+        background-position: center center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        position: relative;
+    }
+    
+    /* Cover note Hero Image */
+    #cover-note{s
+        max-height: 180px;
+        width: 400px;
+        position: absolute;
+        left: 35%;
+        right: 50%;
+        top: 50%;
+        bottom: 10%;
+        padding-top: 55px;
+    }
+
+    
+    /*About Us Section Left */
+    #about-us{
+        height: 33.5em ;
+        width: 1200px;
+        background-color: #2b6777;
+        position: relative;  
+        border: 0px;
+    }
+
+    .about-left{     
+        display: block;
+        width: 600px;
+        height: 300px;
+        padding: 1px 0 0 55px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3px;
+        color: white;
+        font-size: 13px;
+        font-weight: 100;s
+        position: absolute;
+        top: 25px;
+    }
+    
+    .about-head {
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3.5px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100;
+        position: relative;
+    }
+
+/*About Us Section right */
+    #slide-position{
+        float: right;
+        display: inline-block;
+        width: 525px;
+        height: 33.5em;
+        justify-content: flex-end;
+        background-color: #c8d8e4; 
+        border: 0px;
+        position: relative;
+    }
+
+    #about-image {
+        max-width: 28rem;
+        margin-right: 500px;
+        position: absolute;  
+        max-height: 500px;
+        top: 5em;
+        left: 3em;
+    }
+
+    /*  Mid Row -landing Page Section*/
+    
+    .mid-row{
+        background-color: #fff;
+        padding: 66px 0 44px 0;
+        widows: 1200px
+        height: 32.5em ;
+        position: relative;
+    }
+
+    .row {
+        display: flex;
+        gap: 150px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    #pos-right{
+        margin-left: 75px;
+    }
+
+    /*footer*/
+
+    footer {
+        background-color: #c8d8e4;
+        position: relative;
+        width:1200px;
+    }
+
+    /*Venue page*/
+
+    .description{
+        height: 22.5em ;
+        width: 1200px;
+    }
+
+    .middle-des{
+        width: 800px;
+        height: 300px;
+        padding: 1px 0 0 15px;
+        position: absolute;
+        top: 25px;
+        left: 15%;
+    }
+    
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+}
+    
