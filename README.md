@@ -48,7 +48,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul>
 
-<img src="./assets/read images/colourscheme.jpg" >
+<img src="./assets/read images/colourscheme.png">
 
 ## Existing Features 
 
