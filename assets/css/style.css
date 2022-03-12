@@ -1508,7 +1508,7 @@ a:link { text-decoration: none; }
 
 
 
-    
+
     .mid-row{
         background-color: #fff;
         padding: 35px 44px 0;
@@ -1516,7 +1516,7 @@ a:link { text-decoration: none; }
         position: relative;
     }
 
-    #media-height{
+    .media-height{
         width: 51.44em;
         height: 1500PX;
     }
