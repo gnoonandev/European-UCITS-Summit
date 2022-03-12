@@ -258,8 +258,6 @@ h1, h2 {
     object-fit: cover;
 }
 
-
-
 /*footer*/
 
 footer {
@@ -315,7 +313,7 @@ footer {
     padding-right: 350px;
 }
 
-.venue-header{
+#venue-header{
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bold;
     color: #52ab98;
@@ -544,8 +542,7 @@ a:link { text-decoration: none; }
 }
 
 
-
-/*******/
+/*For larger screens 1740px width and down*/
 @media screen and (max-width: 1740px){
 
     .menu{
@@ -707,14 +704,92 @@ a:link { text-decoration: none; }
     #speaker2{
         height: 18.5rem;
     }
-
-
-
-
-
 }
 
+/*For Medium screens size from 1400px wide and down */
+@media screen and (max-width: 1400px){
+    
+    .menu{
+        width: 87.83em;
+    }
 
+    #main-image{
+        height: 38.5em;
+        width: 87.83em;
+    }
+
+    #about-us{
+        height: 33.5em ;
+        width: 87.83em;
+        position: relative;  
+    }
+
+    .about-left{     
+        width: 600px;
+        height: 350px;
+    }
+    
+    /*About Us Section right */
+    #slide-position{
+        width: 650px;
+        height: 33.5em;
+    }
+
+    #about-image {
+        max-width: 33rem;
+        margin-right: 450px;
+    }
+
+    /*  Mid Row -landing Page Section*/
+    .mid-row{
+        width: 87.83em;
+    }
+
+    /*footer*/
+
+    footer {
+        background-color: #c8d8e4;
+        position: relative;
+        width: 87.83em;
+    }
+
+    /*about section on Venue / Seheduale / Ticket / Speaker page*/
+    .description{
+        height: 24.5em ;
+        width: 87.83em;
+    }
+
+    /*Schedaule Page*/
+
+    .midrow-sec{
+        width: 87.83em;
+        margin: 0 50px 0 50px; 
+        margin: 0 0 0 300px;   
+        gap: 250px;
+    }
+
+    #table1{
+        position: absolute;
+        bottom: 25%;
+        left: -16%;
+    }
+
+    #table2{
+        position: absolute;
+        bottom: 25%;
+        right: 25%;
+    }
+
+    /*Speaker*/
+
+    #speaker2{
+        height: 17.4rem;
+    }
+    
+    #speaker4{
+        height: 18rem;   
+    }
+}
 
 
 /*For Larger to Medium screens size from 1200px wide and down */
@@ -893,4 +968,285 @@ a:link { text-decoration: none; }
       
     }
 }
+   
+/*For Medium screens size from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    .menu{
+        margin-right: 1.875em;
+        letter-spacing: 3px;
+        background: color #f2f2f2;;
+        width: 950px;
+        height: 5.2em;
+    }   
+
+    /*Background Image*/
+
+    #main-image{
+        height: 38.5em;
+        width: 950px;
+        background-image: url("../images/dublincit.jpg");
+        background-position: center center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        position: relative;
+    }
+
+    /*About Us Section Left */
+    #about-us{
+        height: 33em ;
+        width: 950px;
+        background-color: #2b6777;
+        position: relative;  
+        border: 0px;
+    }
+
+    .about-left{     
+        display: block;
+        width: 650px;
+        height: 450px;
+        padding: 1px 0 0 55px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3px;
+        color: white;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        top: 25px;
+        margin-left: 85px;
+    }
     
+    .about-head {
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3.5px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100;
+        position: relative;
+    }
+
+    /*About Us Section right */
+    #slide-position{
+        float: left;
+        width: 950px;
+        height: 33.5em;
+        background-color: #c8d8e4; 
+        position: absolute;
+        top: 100%;    
+    }
+
+    #about-image {
+        max-width: 40rem;
+        position: absolute;  
+        max-height: 500px;
+        top: 4em;
+        left: 8em;
+    }
+
+    /*  Mid Row -landing Page Section*/
+    
+    .mid-row{
+        background-color: #fff;
+        padding: 5px 0 44px 0;
+        width: 950px;
+        height: 55.5em ;
+        position: relative;
+    }
+
+    #mid-margin{
+        margin-top: 65%;
+    }
+    
+    .row {
+        display: flex;
+        gap: 150px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    #pos-right{
+        margin-left: 75px;
+        position: absolute;
+        left: 4%;
+        top: 57%;
+    }
+
+    /*footer*/
+    footer {
+        background-color: #c8d8e4;
+        position: relative;
+        width: 950px;px;
+        }
+
+    /* about section on Venue / Schedaule / Ticket / Speaker page*/
+
+    .description{
+        height: 26em ;
+        width: 950px;
+    }
+    
+    .middle-des{
+        width: 600px;
+        height: 300px;
+        padding: 1px 0 0 15px;
+        position: absolute;
+        top: 25px;
+        left: 15%;
+    }
+
+    /*Venue*/
+
+    .mid-row{
+        background-color: #fff;
+        padding: 5px 0 44px 0;
+        width: 950px;
+        height: 55.5em ;
+        position: relative;
+    }
+
+    
+    #venue-header{
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: bold;
+        color: #52ab98;
+        top: 16.5%;
+        padding-bottom: 15px;
+    }
+
+    #header-venue{
+        position: absolute;
+        top: 10%;
+        left: 6.5%;
+    }
+    
+
+    #map{
+        position: absolute;
+        left:16.5%;
+        bottom: 20%;
+    }
+
+    .content-mid{
+        padding-top: 10rem;
+        width: 625px;
+    }
+
+    /* ticket page / form section */
+
+    form{
+        padding-right: 3%;
+        border: 3px solid #52ab98;
+        padding: 2rem;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        margin-right: 50px;
+        margin-top: 175px;
+    }
+
+    /*Schedaule Page*/
+
+    #s-row{
+        background-color: #fff;
+        width: 950px;
+        height:75em;
+        position: relative;
+    }
+
+    #table1{
+        position: absolute;
+        bottom: 55%;
+        left: 10.5%;
+    }
+
+    #table2{
+        position: absolute;
+        top: 55%;
+        right: 32.5%;
+    }
+
+    /*Speaker*/
+
+    #speaker1{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 14.5%;
+        height: 18.5rem;
+        position: absolute;
+        left: 10%;
+        padding: 15px 0 0 22px;
+    }
+    
+    #speaker2{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 14.5%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        left: 40%;
+    }
+    
+    #speaker3{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 14.5%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        left: 70%;
+    }
+    
+    
+    #speaker4{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 14.5%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        right: 72.5%;
+    
+    }
+    
+    #speaker5{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 14.5%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        right: 42.5%;
+    }
+    
+    #speaker6{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 14.5%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        right: 12.5%;
+    }
+    
+    .img-speaker{
+        border: 5px solid #52ab98;
+        border-radius: 55%;
+        width: 70%;
+        height: 70%;
+    }
+    
+    .header-speaker{
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+        color: #52ab98;
+    }
+    
+    .des-speaker{
+        color: #52ab98;
+        letter-spacing: 1.5px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+}
+
+/*For Medium screens size from 950px wide and down */
+@media screen and (max-width: 950px){
