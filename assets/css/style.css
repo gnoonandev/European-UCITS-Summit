@@ -104,7 +104,7 @@ h1, h2 {
     width: 400px;
     background-color: rgba(242, 242, 242, .7);
     position: absolute;
-    left: 35%;
+    left: 37.5%;
     right: 50%;
     top: 50%;
     bottom: 10%;
@@ -890,39 +890,39 @@ a:link { text-decoration: none; }
 @media screen and (max-width: 1280px){
     
     .menu{
-        width: 87.83em;
+        width: 80.30em;
     }
 
     #main-image{
         height: 38.5em;
-        width: 87.83em;
+        width: 80.30em;
     }
 
     #about-us{
-        height: 33.5em ;
-        width: 87.83em;
+        height: 36.7em ;
+        width: 80.30em;
         position: relative;  
     }
 
     .about-left{     
-        width: 600px;
-        height: 350px;
+        width: 550px;
+        height: 650px;
     }
     
     /*About Us Section right */
     #slide-position{
-        width: 650px;
-        height: 33.5em;
+        width: 600px;
+        height: 36.7em;
     }
 
     #about-image {
-        max-width: 33rem;
+        max-width: 31rem;
         margin-right: 450px;
     }
 
     /*  Mid Row -landing Page Section*/
     .mid-row{
-        width: 87.83em;
+        width: 80.30em;
     }
 
     /*footer*/
@@ -930,77 +930,32 @@ a:link { text-decoration: none; }
     footer {
         background-color: #c8d8e4;
         position: relative;
-        width: 87.83em;
+        width: 80.30em;
     }
 
     /*about section on Venue / Seheduale / Ticket / Speaker page*/
     .description{
         height: 24.5em ;
-        width: 87.83em;
+        width: 80.30em;
+    }
+
+    .middle-des{
+        width: 775px;
+        height: 300px;
+        padding: 1px 34px 0 25px;
+        position: absolute;
+        top: 25px;
+        left: 15%;
+        
     }
 
     /*Venue*/
     #header-venue{
         position: absolute;
         top: 10%;
-        left: 2.6%;
-    }
-
-    .content-mid{
-        padding-top: 2.5rem;
-    }
-
-    /*Schedaule Page*/
-
-    .midrow-sec{
-        width: 87.83em;
-        margin: 0 50px 0 50px; 
-        margin: 0 0 0 300px;   
-        gap: 250px;
-    }
-
-    #table1{
-        position: absolute;
-        bottom: 8%;
-        left: -10%;
-    }
-
-    #table2{
-        position: absolute;
-        bottom: 8%;
-        left: 35%;
-    }
-
-    /*Speaker*/
-
-    #speaker2{
-        height: 17.4rem;
-    }
-    
-    #speaker4{
-        height: 18rem;   
+        left: -1.8%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*For Larger to Medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px){
@@ -1325,8 +1280,7 @@ a:link { text-decoration: none; }
         height: 55.5em ;
         position: relative;
     }
-
-    
+  
     #venue-header{
         font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight: bold;
@@ -1341,7 +1295,6 @@ a:link { text-decoration: none; }
         left: 6.5%;
     }
     
-
     #map{
         position: absolute;
         left:16.5%;
@@ -1470,8 +1423,317 @@ a:link { text-decoration: none; }
     }
 }
 
+
 /*For IPAD screen size from 820px wide and down */
 @media screen and (max-width: 820px){
+
+    .menu{
+        margin-right: 1.875em;
+        width: 51.44em;
+        height: 5.2em;
+    }   
+
+    /*Background Image*/
+    #main-image{
+        height: 38.5em;
+        width: 51.44em;
+    }
+
+    #cover-note{
+        left: 25%;
+    }
+
+    /*About Us Section Left */
+    #about-us{
+        height: 33em ;
+        width: 51.44em;
+        background-color: #2b6777;
+        position: relative;  
+        border: 0px;
+    }
+
+    .about-left{     
+        display: block;
+        width: 650px;
+        height: 450px;
+        padding: 1px 0 0 5px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3px;
+        color: white;
+        font-size: 14px;
+        font-weight: 100;
+        position: absolute;
+        top: 25px;
+        margin-left: 85px;
+    }
+    
+    .about-head {
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 3.5px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 100;
+        position: relative;
+    }
+
+    /*About Us Section right */
+    #slide-position{
+        float: left;
+        width: 51.44em;
+        height: 33.5em;
+        background-color: #c8d8e4; 
+        position: absolute;
+        top: 100%;    
+    }
+
+    #about-image {
+        max-width: 40rem;
+        position: absolute;  
+        max-height: 500px;
+        top: 4em;
+        left: 5.5em;
+    }
+
+    /*  Mid Row -landing Page Section*/
+    .mid-row{
+        background-color: #fff;
+        padding: 35px 44px 0;
+        width: 51.44em;
+        position: relative;
+    }
+
+    #mid-margin{
+        margin-top: 65%;
+    }
+    
+    .row {
+        display: flex;
+        gap: 150px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    #pos-right{
+        margin-left: 75px;
+        position: absolute;
+        left: 4%;
+        top: 57%;
+    }
+
+    /*footer*/
+    footer {
+        width: 51.44em;
+    }
+
+    #copyright {
+        text-align: right;
+        margin-right: 35px;
+     }
+
+    /* about section on Venue / Schedaule / Ticket / Speaker page*/
+    .description{
+        height: 26em ;
+        width: 51.44em;
+    }
+    
+    .middle-des{
+        width: 600px;
+        height: 300px;
+        padding: 1px 0 0 5px;
+        position: absolute;
+        top: 25px;
+        left: 15%;
+    }
+
+    /*Venue*/
+    .mid-row{
+        background-color: #fff;
+        padding: 5px 0 44px 0;
+        width: 51.44em;
+        height: 55.5em ;
+        position: relative;
+    }
+
+    #venue-header{
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: bold;
+        color: #52ab98;
+        padding-bottom: 8px;
+    }
+
+    #header-venue{
+        position: absolute;
+        top: 8%;
+        left: -.5%;
+    }
+
+    #map{
+        position: absolute;
+        left:12.5%;
+        bottom: 20%;
+        padding-top: 65px;
+    }
+
+    /* ticket page / form section */
+    form{
+        padding-right: 3%;
+        border: 3px solid #52ab98;
+        padding: 2rem;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        margin: 500px 400px 0 200px;
+    }
+
+    #m-ticket{
+        width: 51.44em;
+        height: 65em ;
+        position: relative;
+    }
+
+    #m-wordticket{
+        position: absolute;
+        left: 3%;
+        bottom: 60%;
+    }
+
+    /*Schedaule Page*/
+    #s-row{
+        background-color: #fff;
+        width: 51.44em;
+        height:85em;
+        position: relative;
+    }
+
+    #table1{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    #table2{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+
+    
+    }
+
+    /*Speaker*/
+
+    .midrow-speaker{
+        padding: 66px 0 35px 0;
+        width: 51.44em;
+        height: 20.5em ;
+        position: relative;
+    }
+
+    #speaker1{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 16%;
+        height: 18.5rem;
+        position: absolute;
+        left: 5%;
+        padding: 15px 0 0 22px;
+    }
+    
+    #speaker2{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 16%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        left: 33%;
+    }
+    
+    #speaker3{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 16%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        left: 61%;
+    }
+    
+    
+    #speaker4{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 16%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        right: 76%;
+    
+    }
+    
+    #speaker5{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 16%;;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        right: 48.5%;
+    }
+    
+    #speaker6{
+        background-color:rgb(211,211,211, 0.4);
+        border: 1px solid rgb(211,211,211) ;
+        width: 16%;
+        height: 18.5rem;
+        position: absolute;
+        padding: 15px 0 0 22px;
+        right: 20.5%;
+    }
+    
+    .img-speaker{
+        border: 5px solid #52ab98;
+        border-radius: 65%;
+        width: 75%;
+        height: 75%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
