@@ -23,7 +23,7 @@ Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io
 
 ## Site Structure
 
-GUS website has five pages. [The home page] (https://gnoonandev.github.io/European-UCITS-Summit/) is the default loading page, Ticket, Speakers, Schedule and Venue pages 
+GUS website has five pages. [The home page](https://gnoonandev.github.io/European-UCITS-Summit/) is the default loading page, Ticket, Speakers, Schedule and Venue pages 
 is all accessible from the navigation bar.
 
 The logo in footer section is linked to homepage to allow the user to return home page.
@@ -48,7 +48,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul>
 
-IMAGE
+<img scr="assets/read images/ colourscheme.jpg">
 
 ## Existing Features 
 
@@ -58,8 +58,8 @@ IMAGE
 
 <ul>
     <li> 
-        Located at the top of the page, the navigation shows the event logo in the left corner - [GUS](https://gnoonandev.github.io/European-UCITS-Summit/) that links to the 
-        landing page 
+        Located at the top of the page, the navigation shows the event logo in the left corner that links to the 
+        home page 
     </li>                                           
     <li> 
         On the right side of the navigation bar, it provides links to the Ticket, Speaker, Schedule and Venue pages, which open new tabs to keep the user on the 
@@ -71,7 +71,7 @@ IMAGE
 
 IMAGE
 
-#### Landing Page image
+#### Home page image
 
 <ul>                                          
     <li> The landing page includes a photo of the venue allowing the user to see exactly where the location is against the backdrop of the city</li>
@@ -80,7 +80,7 @@ IMAGE
 
 IMAGE
 
-#### About us Section
+#### About GUS Section
 
 <ul>                                          
     <li> This section gives details about the event and why to attend </li>
@@ -92,7 +92,7 @@ IMAGE
 
 IMAGE
 
-#### About us Section
+#### Venue
 
 <ul>
     <li> 
@@ -130,7 +130,7 @@ IMAGE
 
 IMAGE
 
-#### footer
+#### Footer
 
 <ul>
     <li> Located at the bottom of the page, the footer showed the event logo in the left corner GUS that links to the landing page </li>
@@ -147,7 +147,7 @@ IMAGE
     <li> GitPod </li>
 </ul>
 
-## Technology Used
+## Testing
 
 Please refer to [here](TESTING.md) for more information on testing Global UCITS Summit.
 
@@ -156,9 +156,9 @@ Please refer to [here](TESTING.md) for more information on testing Global UCITS 
 I have created the project using Github, from there I used Gitpod to write my code. Then I used commit git followed by "git push" to my GitHub repository. 
 I've deployed this project through GitHub.
 
-The live link to the website can be found [here] (https://gnoonandev.github.io/European-UCITS-Summit/) 
+The live link to the website can be found [here](https://gnoonandev.github.io/European-UCITS-Summit/) 
 
-The live link to the Github repository can be found [here] (https://github.com/gnoonandev/European-UCITS-Summit)
+The live link to the Github repository can be found [here](https://github.com/gnoonandev/European-UCITS-Summit)
 
 ## Credit
 
