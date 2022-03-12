@@ -104,7 +104,7 @@ h1, h2 {
     width: 400px;
     background-color: rgba(242, 242, 242, .7);
     position: absolute;
-    left: 40%;
+    left: 35%;
     right: 50%;
     top: 50%;
     bottom: 10%;
@@ -713,6 +713,83 @@ a:link { text-decoration: none; }
     }
 }
 
+/*For Desktop screens 1600px width and down*/
+@media screen and (max-width: 1600px){
+
+    .menu{
+        width: 100.37em;
+    }
+
+    #main-image{
+        width:100.37em;
+    }
+
+    #about-us{
+        height: 33.5em ;
+        width:100.37em;
+    }
+
+    .about-left{     
+        width: 685px;
+    }
+
+   /*  Mid Row -landing Page Section*/
+    
+    .mid-row{
+        width: 100.37em;
+    }
+
+    .row {
+        gap: 75px;
+        margin-left: 35px;
+    }
+
+    #pos-right{
+        margin-left: 100px;
+}
+
+/*footer*/
+
+    footer {
+        width: 100.37em;
+    }
+
+/*about section on Venue / Seheduale / Ticket / Speaker page*/
+    .description{
+        height: 24.5em ;
+        width: 100.37em;
+    }
+
+    /*venue*/
+    #header-venue{
+        position: absolute;
+        top: 10%;
+        left: 8.5%;
+    }
+
+    /*Schedaule Page*/
+    .midrow-sec{
+        width: 100.37em;
+        margin: 0 50px 0 50px; 
+        margin: 0 0 0 300px;   
+        gap: 250px;
+    }
+
+    #table1{
+        position: absolute;
+        width: 0.1rem;
+        bottom: 8.5%;
+        left:-1%;
+    }
+
+    #table2{
+        position: absolute;
+        width: 0.1rem;
+        bottom: 8.8%;
+        left: 42%;
+    }
+}
+
 /*For Medium screens size from 1400px wide and down */
 @media screen and (max-width: 1400px){
     
@@ -808,6 +885,122 @@ a:link { text-decoration: none; }
         height: 18rem;   
     }
 }
+
+/*For Laptop screens size from 1280px wide and down */
+@media screen and (max-width: 1280px){
+    
+    .menu{
+        width: 87.83em;
+    }
+
+    #main-image{
+        height: 38.5em;
+        width: 87.83em;
+    }
+
+    #about-us{
+        height: 33.5em ;
+        width: 87.83em;
+        position: relative;  
+    }
+
+    .about-left{     
+        width: 600px;
+        height: 350px;
+    }
+    
+    /*About Us Section right */
+    #slide-position{
+        width: 650px;
+        height: 33.5em;
+    }
+
+    #about-image {
+        max-width: 33rem;
+        margin-right: 450px;
+    }
+
+    /*  Mid Row -landing Page Section*/
+    .mid-row{
+        width: 87.83em;
+    }
+
+    /*footer*/
+
+    footer {
+        background-color: #c8d8e4;
+        position: relative;
+        width: 87.83em;
+    }
+
+    /*about section on Venue / Seheduale / Ticket / Speaker page*/
+    .description{
+        height: 24.5em ;
+        width: 87.83em;
+    }
+
+    /*Venue*/
+    #header-venue{
+        position: absolute;
+        top: 10%;
+        left: 2.6%;
+    }
+
+    .content-mid{
+        padding-top: 2.5rem;
+    }
+
+    /*Schedaule Page*/
+
+    .midrow-sec{
+        width: 87.83em;
+        margin: 0 50px 0 50px; 
+        margin: 0 0 0 300px;   
+        gap: 250px;
+    }
+
+    #table1{
+        position: absolute;
+        bottom: 8%;
+        left: -10%;
+    }
+
+    #table2{
+        position: absolute;
+        bottom: 8%;
+        left: 35%;
+    }
+
+    /*Speaker*/
+
+    #speaker2{
+        height: 17.4rem;
+    }
+    
+    #speaker4{
+        height: 18rem;   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*For Larger to Medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px){
@@ -1282,13 +1475,9 @@ a:link { text-decoration: none; }
 
 }
 
-
-/*For Surface Duo screen size from 540px wide and down */
+/*For Du screen size from 540px wide and down */
 @media screen and (max-width: 540px){}
 
-
-
-    
 
 /*For Samsung Galaxy screen size from 412px wide and down */
 @media screen and (max-width: 412px){}
