@@ -1,108 +1,183 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Global UCITS Summit (GUS)
 
-Welcome gnoonandev,
+The Global UCITS Summit (GUS) is a conference website for an event International Fund event running in the Convention Centre Dublin. The Site is targeted at users who 
+are seeking information about the event or users who want to attend.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of the site will be able to find all the information regarding the event including location, Speakers, Schedule, Venue and how to register for tickets.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io/European-UCITS-Summit/)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+<ul>
+    <li> As a user I want to connect with GUS on social media </li>
+    <li> As a user I want to know more about Wawas Woods </li>
+    <li> As a user I want to have an intuitive navigation so I know right away where I can find which information </li>
+    <li> As a user I want to understand the purpose of the site upon loading it </li>
+    <li> As a user I want to be able to purchase an event ticket </li>
+    <li> As a user I want to know the location of the event </li>
+    <li> As a user I want o know the schedule and who will be speaking at the event </li>
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
+## Site Structure
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+GUS website has five pages. [The home page] (https://gnoonandev.github.io/European-UCITS-Summit/) is the default loading page, Ticket, Speakers, Schedule and Venue pages 
+is all accessible from the navigation bar.
 
-A blue button should appear to click: _Make Public_,
+The logo in footer section is linked to homepage to allow the user to return home page.
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Typography
 
-To log into the Heroku toolbelt CLI:
+<ul>
+    <li> 
+        The Font chose for the headers were Helvetica and HelveticaNeue-Light for the body 
+        text. These were both chosen to give the site a professional feel.
+    </li>
+</ul>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Colour Scheme
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<ul>
+    <li> 
+	        The colour scheme was chosen for its Trustworthy tones, it invokes a sense of reliability and trust. 
+            This is something that GUS wants to pass onto the user.
+    </li>
+</ul>
 
-------
+IMAGE
 
-## Release History
+## Existing Features 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+IMAGE
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Navigation Menu
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<ul>
+    <li> 
+        Located at the top of the page, the navigation shows the event logo in the left corner - [GUS](https://gnoonandev.github.io/European-UCITS-Summit/) that links to the 
+        landing page 
+    </li>                                           
+    <li> 
+        On the right side of the navigation bar, it provides links to the Ticket, Speaker, Schedule and Venue pages, which open new tabs to keep the user on the 
+        landing page if clicked
+    </li>
+    <li> The navigation menu clearly tells the user the name of the event and makes the different sections easy to navigate </li>
+    <li> The Navigation menu emphasises the ticket page for the user with a border </li>
+</ul>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+IMAGE
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Landing Page image
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<ul>                                          
+    <li> The landing page includes a photo of the venue allowing the user to see exactly where the location is against the backdrop of the city</li>
+    <li> The full name of the event is present with a button that allows the user to open the tickets page to register  </li>
+</ul>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+IMAGE
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### About us Section
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<ul>                                          
+    <li> This section gives details about the event and why to attend </li>
+    <li> 
+        The section shows the most important information to the user - the Venue; Speakers; and Schedule. The user can click each section to open up more information 
+        in a new tab. 
+    </li>
+</ul
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+IMAGE
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### About us Section
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<ul>
+    <li> 
+        This page provides the location of the venue through an interactive google maps and the contact information of the venue
+    </li>                                           
+    <li> 
+        In the about section, it provides all modes of transport available to the user if 
+        they wish to attend the event.
+    </li>
+</ul>    
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+IMAGE
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Schedule
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<ul>
+    <li> 
+        The section provides the user a schedule for each day of the conference.
+    </li>                                           
+    <li> 
+        Each speaker’s name is linked to the speaker page and will open a new tab to access the speaker’s picture.
+    </li>
+</ul>  
 
-------
+IMAGE
 
-## FAQ about the uptime script
+#### Ticket
 
-**Why have you added this script?**
+<ul>
+    <li> This section provides more reasons to attend the conference  </li>
+    <li> The form allows the user to register for 5 tickets </li>
+    <li> The form cannot be completed until all information is applied correctly </li>
+    <li> Once register, the user is brought to a thank you confirmation page  </li>
+</ul>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+IMAGE
 
-**How will this affect me?**
+#### footer
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<ul>
+    <li> Located at the bottom of the page, the footer showed the event logo in the left corner GUS that links to the landing page </li>
+    <li> On the right side of the footer, it provides links to the social media sites formatted as Icons </li>
+    <li> Once clicked, new tabs will open to keep the user on the landing page if clicked. </li>
+</ul>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Technology Used
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<ul>
+    <li> HTML </li>
+    <li> CSS </li>
+    <li> GitHub </li>
+    <li> GitPod </li>
+</ul>
 
-**So….?**
+## Technology Used
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Please refer to [here](TESTING.md) for more information on testing Global UCITS Summit.
 
-**Can I opt out?**
+## Deployment
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+I have created the project using Github, from there I used Gitpod to write my code. Then I used commit git followed by "git push" to my GitHub repository. 
+I've deployed this project through GitHub.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The live link to the website can be found [here] (https://gnoonandev.github.io/European-UCITS-Summit/) 
 
-**Anything more?**
+The live link to the Github repository can be found [here] (https://github.com/gnoonandev/European-UCITS-Summit)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Credit
 
----
+<ul>
+    <li> Credit to Kevin Powell YouTube channel that help me understand CSS position in more details  </li>
+    <li> Credit to Timothy Arterbury Youtube channel that help me understand tables in HTML in more detail.</li>
+    <li> Credit to W3schools website that I used to refernce code I wrote</li>
+    <li> The love Runiing project, this help me undeerstand the format that was required and provded the intial direction to my project </li>
+    <li> All images where taken from open source </li>
+    <li> Font awesome for the social media icons</li>
+    <li> The Speaker images were taken from the Irish Fund Website </li>
+</ul>
 
-Happy coding!
+## Future implantations 
+
+<ul>
+    <li> For the landing page, add an image slider to the about section, to showcase the user more images of the event/ venue  </li>
+    <li> Add useful transport links to the venue page </li>
+    <li> Sticky Navigation menu, to allow the user more accessibility when scrolling through website </li>
+    <li> Speaker profile picture, make them more dynamics by zooming out when use interacts with them </li>
+    <li> Add a view profile button to each speak that allows the user to read more about them</li>
+</ul>
