@@ -48,11 +48,11 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul>
 
-<img scr="assets/read images/ colourscheme.jpg">
+<img src="./assets/read images/colourscheme.jpg" >
 
 ## Existing Features 
 
-IMAGE
+<img src="./assets/read images/navbar.jpg" >
 
 #### Navigation Menu
 
@@ -69,7 +69,7 @@ IMAGE
     <li> The Navigation menu emphasises the ticket page for the user with a border </li>
 </ul>
 
-IMAGE
+<img src="./assets/read images/heroimage.jpg" >
 
 #### Home page image
 
@@ -78,7 +78,7 @@ IMAGE
     <li> The full name of the event is present with a button that allows the user to open the tickets page to register  </li>
 </ul>
 
-IMAGE
+<img src="./assets/read images/Aboutgus.jpg" >
 
 #### About GUS Section
 
@@ -90,7 +90,7 @@ IMAGE
     </li>
 </ul
 
-IMAGE
+<img src="./assets/read images/venue.jpg" >
 
 #### Venue
 
@@ -104,7 +104,7 @@ IMAGE
     </li>
 </ul>    
 
-IMAGE
+<img src="./assets/read images/schedaule.jpg" >
 
 #### Schedule
 
@@ -117,7 +117,7 @@ IMAGE
     </li>
 </ul>  
 
-IMAGE
+<img src="./assets/read images/ticket.jpg" >
 
 #### Ticket
 
@@ -128,7 +128,7 @@ IMAGE
     <li> Once register, the user is brought to a thank you confirmation page  </li>
 </ul>
 
-IMAGE
+<img src="./assets/read images/footer.jpg" >
 
 #### Footer
 
