@@ -92,11 +92,11 @@ The logo in footer section is linked to homepage to allow the user to return hom
 
 
 
-<img src="./assets/read images/venue.jpg">
+<img src="./assets/read images/venue.jpg" >
 
 
 
-    #### Venue
+ #### Venue
 
 <ul>
     <li> 
@@ -140,6 +140,14 @@ The logo in footer section is linked to homepage to allow the user to return hom
     <li> Located at the bottom of the page, the footer showed the event logo in the left corner GUS that links to the landing page </li>
     <li> On the right side of the footer, it provides links to the social media sites formatted as Icons </li>
     <li> Once clicked, new tabs will open to keep the user on the landing page if clicked. </li>
+</ul>
+
+
+
+### Thank You
+
+<ul>
+    <li> Provides confiramtion to the user that the form is complete </li>
 </ul>
 
 ## Technology Used
