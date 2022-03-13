@@ -28,6 +28,7 @@ GUS site has been exhaustively tested. All the code has been run through the W3C
 
 ### The CSS validator results are below:
 
+<img src="./assets/read images/cssval.jpg">
 
 ## Responsiveness Test
 

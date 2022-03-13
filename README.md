@@ -143,7 +143,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
 ### Thank You
 
 <ul>
-    <li> Provides confiramtion to the user that the form is complete </li>
+    <li> Provides affirmation to the user once the form is complete </li>
 </ul>
 
 ## Technology Used
