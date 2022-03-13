@@ -311,11 +311,22 @@ footer {
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bold;
     color: #52ab98;
+    position: absolute;
+    left: 16.3%;
 }
 
 .address{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
     letter-spacing: 1.5px;
+    margin-right: 1400px;
+    padding-top: 50px;
+  
+}
+
+#map{
+    position: absolute;
+    left: 40%;
+    bottom: 35%;
 }
 
 /*Ticket Page*/
@@ -340,6 +351,7 @@ form{
     border: 3px solid #52ab98;
     padding: 2rem;
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-right: 600px;
 }
 
 input{
@@ -375,6 +387,16 @@ select{
     border: 2px solid #52ab98;
     border-radius: 5px;
     background-color:rgb(211,211,211, 0.4);
+}
+
+#venue-header{
+    position: absolute;
+    left: 13.4%;
+
+}
+
+#ticket-why{
+    padding-top: 55px;
 }
 
 /*Schedaule Page*/
@@ -609,7 +631,6 @@ a:link { text-decoration: none; }
 }
 
 /*footer*/
-
     footer {
         background-color: #c8d8e4;
         position: relative;
@@ -655,8 +676,40 @@ a:link { text-decoration: none; }
     .content-mid{
         padding-top: 2.5rem;
     }
+
+
+    /*Venue Page*/
+    .description{
+        height: 24.5em ;
+        width: 1740px;
+        background-color: #2b6777;
+        position: relative;  
+    }
+
+
+    #venue-header{
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: bold;
+        color: #52ab98;
+        position: absolute;
+        display: inline;
+        left: 25%;
+    }
+
+    .address{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px;
+        margin-right: 755px;
+        padding-top: 38px;
+    }
+
+    #map{
+        position: absolute;
+        left: 50%;
+        bottom: 35%;
+    }
       
-/* ticket page / form section */
+    /* ticket page / form section */
     #ticket-why{
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
         letter-spacing: 1.5px;
@@ -1302,7 +1355,11 @@ a:link { text-decoration: none; }
     #map{
         position: absolute;
         left:16.5%;
-        bottom: 20%;
+        bottom: 10%;
+    }
+
+    .address{
+        width: 300px;
     }
 
     .content-mid{
@@ -1505,10 +1562,6 @@ a:link { text-decoration: none; }
 
     /*  Mid Row -landing Page Section*/
 
-
-
-
-
     .mid-row{
         background-color: #fff;
         padding: 35px 44px 0;
@@ -1539,14 +1592,6 @@ a:link { text-decoration: none; }
         left: 4%;
         top: 57%;
     }
-
-
-
-
-
-
-
-
 
     /*footer*/
     footer {
@@ -1586,7 +1631,7 @@ a:link { text-decoration: none; }
         font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight: bold;
         color: #52ab98;
-        padding-bottom: 8px;
+        padding-bottom: 4px;
     }
 
     #header-venue{
@@ -1598,8 +1643,8 @@ a:link { text-decoration: none; }
     #map{
         position: absolute;
         left:12.5%;
-        bottom: 20%;
-        padding-top: 65px;
+        bottom: 12.5%;
+        padding-top: 25px;
     }
 
     /* ticket page / form section */
@@ -1646,7 +1691,6 @@ a:link { text-decoration: none; }
     }
 
     /*Speaker*/
-
     .midrow-speaker{
         padding: 66px 0 35px 0;
         width: 51.44em;
@@ -1729,51 +1773,19 @@ a:link { text-decoration: none; }
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*For Tablet screen size from 768px wide and down */
 @media screen and (max-width: 768px){
 
     .menu{
         margin-right: 1.875em;
-        width: 51.44em;
+        width: 48em;
         height: 5.2em;
     }   
 
     /*Background Image*/
     #main-image{
         height: 38.5em;
-        width: 51.44em;
+        width: 48em;
     }
 
     #cover-note{
@@ -1783,7 +1795,7 @@ a:link { text-decoration: none; }
     /*About Us Section Left */
     #about-us{
         height: 33em ;
-        width: 51.44em;
+        width: 48em;
         background-color: #2b6777;
         position: relative;  
         border: 0px;
@@ -1791,7 +1803,7 @@ a:link { text-decoration: none; }
 
     .about-left{     
         display: block;
-        width: 650px;
+        width: 48em;
         height: 450px;
         padding: 1px 0 0 5px;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
@@ -1816,7 +1828,7 @@ a:link { text-decoration: none; }
     /*About Us Section right */
     #slide-position{
         float: left;
-        width: 51.44em;
+        width: 48em;
         height: 33.5em;
         background-color: #c8d8e4; 
         position: absolute;
@@ -1824,7 +1836,7 @@ a:link { text-decoration: none; }
     }
 
     #about-image {
-        max-width: 40rem;
+        max-width: 38rem;
         position: absolute;  
         max-height: 500px;
         top: 4em;
@@ -1835,7 +1847,7 @@ a:link { text-decoration: none; }
     .mid-row{
         background-color: #fff;
         padding: 35px 44px 0;
-        width: 51.44em;
+        width: 48em;;
         position: relative;
     }
 
@@ -1859,7 +1871,7 @@ a:link { text-decoration: none; }
 
     /*footer*/
     footer {
-        width: 51.44em;
+        width: 48em;
     }
 
     #copyright {
@@ -1870,7 +1882,7 @@ a:link { text-decoration: none; }
     /* about section on Venue / Schedaule / Ticket / Speaker page*/
     .description{
         height: 26em ;
-        width: 51.44em;
+        width: 48em;
     }
     
     .middle-des{
@@ -1885,8 +1897,8 @@ a:link { text-decoration: none; }
     /*Venue*/
     .mid-row{
         background-color: #fff;
-        padding: 5px 0 44px 0;
-        width: 51.44em;
+        padding: 5px 0 45px 0;
+        width: 48em;
         height: 55.5em ;
         position: relative;
     }
@@ -1895,20 +1907,25 @@ a:link { text-decoration: none; }
         font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight: bold;
         color: #52ab98;
-        padding-bottom: 8px;
+        padding-bottom: 7px;
     }
 
     #header-venue{
         position: absolute;
         top: 8%;
-        left: -.5%;
+        left: 2.5%;
     }
 
     #map{
         position: absolute;
-        left:12.5%;
-        bottom: 20%;
-        padding-top: 65px;
+        left:16.5%;
+        bottom: 10%;
+        padding-top: 100px;
+    }
+
+    .address{
+        margin-left: 52px;
+        margin-bottom: 25px;
     }
 
     /* ticket page / form section */
@@ -1921,7 +1938,7 @@ a:link { text-decoration: none; }
     }
 
     #m-ticket{
-        width: 51.44em;
+        width: 48em;
         height: 65em ;
         position: relative;
     }
@@ -1935,7 +1952,7 @@ a:link { text-decoration: none; }
     /*Schedaule Page*/
     #s-row{
         background-color: #fff;
-        width: 51.44em;
+        width: 48em;
         height:85em;
         position: relative;
     }
@@ -1955,7 +1972,7 @@ a:link { text-decoration: none; }
     /*Speaker*/
     .midrow-speaker{
         padding: 66px 0 35px 0;
-        width: 51.44em;
+        width: 48em;
         height: 20.5em ;
         position: relative;
     }
@@ -1977,7 +1994,7 @@ a:link { text-decoration: none; }
         height: 18.5rem;
         position: absolute;
         padding: 15px 0 0 22px;
-        left: 33%;
+        left: 31%;
     }
     
     #speaker3{
@@ -1987,7 +2004,7 @@ a:link { text-decoration: none; }
         height: 18.5rem;
         position: absolute;
         padding: 15px 0 0 22px;
-        left: 61%;
+        left: 57%;
     }
     
     
@@ -2009,7 +2026,7 @@ a:link { text-decoration: none; }
         height: 18.5rem;
         position: absolute;
         padding: 15px 0 0 22px;
-        right: 48.5%;
+        right: 50%;
     }
     
     #speaker6{
@@ -2019,7 +2036,7 @@ a:link { text-decoration: none; }
         height: 18.5rem;
         position: absolute;
         padding: 15px 0 0 22px;
-        right: 20.5%;
+        right: 24.5%;
     }
     
     .img-speaker{
@@ -2065,8 +2082,6 @@ a:link { text-decoration: none; }
 
 }
 
-/*For Du screen size from 540px wide and down */
-@media screen and (max-width: 540px){}
 
 
 /*For Samsung Galaxy screen size from 412px wide and down */
