@@ -590,8 +590,8 @@ a:link { text-decoration: none; }
     }
 
     #about-us{
-        max-height: 33.5em ;
-        max-width: 1740px;
+        height: 33.5em ;
+        width: 1740px;
         background-color: #2b6777;
         position: relative;  
         border: 0px;
@@ -599,8 +599,8 @@ a:link { text-decoration: none; }
 
     .about-left{     
         display: block;
-        max-width: 970px;
-        max-height: 300px;
+        width: 970px;
+        height: 300px;
         padding: 1px 0 0 55px;
         font-size: 15px;
         position: absolute;
@@ -611,7 +611,7 @@ a:link { text-decoration: none; }
     #slide-position{
         float: right;
         display: inline-block;
-        max-height:: 685px;
+        width: 685px;
         height: 33.5em;
         justify-content: flex-end;
         background-color: #c8d8e4; 
@@ -620,19 +620,19 @@ a:link { text-decoration: none; }
     }
 
     #about-image {
-        max-width: 35rem;
+        width: 35rem;
         margin-right: 500px;
         position: absolute;  
-        max-height: 500px;
-        top: 5em;
+        height: 500px;
+        top: 1em;
         left: 4em;
     }
    /*  Mid Row -landing Page Section*/
     
     .mid-row{
         padding: 66px 0 44px 0;
-        max-width: 1740px;
-        max-height:32.5em ;
+        width: 1740px;
+        height:32.5em ;
         position: relative;
     }
 
@@ -819,18 +819,18 @@ a:link { text-decoration: none; }
     }
 
     #about-us{
-        max-height: 33.5em ;
-        max-width:100.37em;
+        height: 33.5em ;
+        width:100.37em;
     }
 
     .about-left{     
-        max-width: 685px;
+        width: 685px;
     }
 
    /*  Mid Row -landing Page Section*/
     
     .mid-row{
-        max-width: 100.37em;
+        width: 100.37em;
     }
 
     .row {
@@ -965,18 +965,18 @@ a:link { text-decoration: none; }
     
     /*About Us Section right */
     #slide-position{
-        max-width: 650px;
-        max-height: 33.5em;
+        width: 650px;
+        height: 33.5em;
     }
 
     #about-image {
-        max-width: 33rem;
+        width: 33rem;
         margin-right: 450px;
     }
 
     /*  Mid Row -landing Page Section*/
     .mid-row{
-        max-width: 1400px;
+width: 1400px;
     }
 
     /*footer*/
@@ -1110,18 +1110,19 @@ a:link { text-decoration: none; }
     
     /*About Us Section right */
     #slide-position{
-        max-width: 600px;
-        max-height: 36.7em;
+        width: 600px;
+        height: 36.7em;
     }
 
     #about-image {
-        max-width: 31rem;
+        width: 31rem;
         margin-right: 450px;
+        top: 3em;
     }
 
     /*  Mid Row -landing Page Section*/
     .mid-row{
-        max-width: 80.30em;
+        width: 80.30em;
     }
 
     /*footer*/
@@ -1282,7 +1283,7 @@ a:link { text-decoration: none; }
     #slide-position{
         float: right;
         display: inline-block;
-        max-height: 525px;
+        width: 525px;
         height: 33.5em;
         justify-content: flex-end;
         background-color: #c8d8e4; 
@@ -1291,11 +1292,11 @@ a:link { text-decoration: none; }
     }
 
     #about-image {
-        max-width: 28rem;
+        width: 28rem;
         margin-right: 500px;
         position: absolute;  
-        max-height: 500px;
-        top: 5em;
+        height: 500px;
+        top: 1em;
         left: 3em;
     }
 
@@ -1303,8 +1304,8 @@ a:link { text-decoration: none; }
     .mid-row{
         background-color: #fff;
         padding: 66px 0 44px 0;
-        max-width: 1200px;
-        max-height: 32.5em ;
+        width: 1200px;
+        height: 32.5em ;
         position: relative;
     }
 
@@ -1488,8 +1489,8 @@ a:link { text-decoration: none; }
 
     /*About Us Section Left */
     #about-us{
-        max-height: 33em ;
-        max-width: 950px;
+        height: 33em ;
+        width: 950px;
         background-color: #2b6777;
         position: relative;  
         border: 0px;
@@ -1497,8 +1498,8 @@ a:link { text-decoration: none; }
 
     .about-left{     
         display: block;
-        max-width: 650px;
-        max-height:: 450px;
+        width: 650px;
+        height: 450px;
         padding: 1px 0 0 55px;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
         letter-spacing: 3px;
@@ -1522,27 +1523,27 @@ a:link { text-decoration: none; }
     /*About Us Section right */
     #slide-position{
         float: left;
-        max-width: 950px;
-        max-height: 33.5em;
+        width: 950px;
+        height: 33.5em;
         background-color: #c8d8e4; 
         position: absolute;
         top: 100%;    
     }
 
     #about-image {
-        max-width: 40rem;
+        width: 40rem;
         position: absolute;  
-        max-height: 500px;
-        top: 4em;
-        left: 8em;
+        height: 500px;
+        top: .8em;
+        left: 10em;
     }
 
     /*  Mid Row -landing Page Section*/
     .mid-row{
         background-color: #fff;
         padding: 5px 0 44px 0;
-        max-width: 950px;
-        max-height: 55.5em ;
+        width: 950px;
+        height: 55.5em ;
         position: relative;
     }
 
@@ -1734,8 +1735,7 @@ a:link { text-decoration: none; }
     /* thank you page */
     #Thank-you{
         width: 950px;
-    }
-    
+    }  
 }
 
 /*For IPAD screen size from 820px wide and down */
@@ -1759,8 +1759,8 @@ a:link { text-decoration: none; }
 
     /*About Us Section Left */
     #about-us{
-        max-height: 33em ;
-        max-width: 820px;
+        height: 33em ;
+        width: 820px;
         background-color: #2b6777;
         position: relative;  
         border: 0px;
@@ -1768,8 +1768,8 @@ a:link { text-decoration: none; }
 
     .about-left{     
         display: block;
-        max-width: 650px;
-        max-height: 450px;
+        width: 650px;
+        height: 450px;
         padding: 1px 0 0 5px;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
         letter-spacing: 3px;
@@ -1793,19 +1793,22 @@ a:link { text-decoration: none; }
     /*About Us Section right */
     #slide-position{
         float: left;
-        max-width: 820px;
-        max-height: 33.5em;
+        width: 820px;
+        height: 33.5em;
         background-color: #c8d8e4; 
         position: absolute;
         top: 100%;    
+        border: 0px;
+        clear: left;
     }
 
     #about-image {
-        max-width: 38rem;
+        width: 38rem;
         position: absolute;  
-        max-height: 500px;
-        top: 4em;
-        left: 5.5em;
+        height: 500px;
+        top: 1em;
+        left: 6em;
+        border: 0px;
     }
 
     /*  Mid Row -landing Page Section*/
@@ -1813,13 +1816,16 @@ a:link { text-decoration: none; }
     .mid-row{
         background-color: #fff;
         padding: 35px 44px 0;
-        max-width: 820px;
+        width: 820px;
+        display: flex;
         position: relative;
+
+        clear: left;
     }
 
     .media-height{
-        max-width: 820px;
-        max-height: 1500PX;
+        width: 820px;
+        max-height: 800PX;
     }
 
 
@@ -2048,7 +2054,7 @@ a:link { text-decoration: none; }
 
     /*About Us Section Left */
     #about-us{
-        max-height: 33em ;
+        height: 33em ;
         width: 768px;
         background-color: #2b6777;
         position: relative;  
@@ -2057,8 +2063,8 @@ a:link { text-decoration: none; }
 
     .about-left{     
         display: block;
-        max-width: 600px;
-        max-height: 550px;
+        width: 600px;
+        height: 550px;
         padding: 1px 0 0 5px;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
         letter-spacing: 3px;
@@ -2082,8 +2088,8 @@ a:link { text-decoration: none; }
     /*About Us Section right */
     #slide-position{
         float: left;
-        max-width: 768px;
-        max-height: 33.5em;
+        width: 768px;
+        height: 33.5em;
         background-color: #c8d8e4; 
         position: absolute;
         top: 100%;    
@@ -2101,7 +2107,7 @@ a:link { text-decoration: none; }
     .mid-row{
         background-color: #fff;
         padding: 35px 44px 0;
-        max-width: 768px;
+        width: 768px;
         position: relative;
     }
 
@@ -2351,8 +2357,10 @@ a:link { text-decoration: none; }
     
     #ticket-nav {
         border: solid 0.5px #2b6777;
-        padding: 2px 2px ;
-    
+        position: absolute;
+        width: 280px;
+        float: left;
+        left: 1600%;
         bottom: 1%;
     }
     
@@ -2376,13 +2384,13 @@ a:link { text-decoration: none; }
     }
 
     #cover-note{
-        max-height: 175px;
+        max-height: 150px;
         width: 412px;
         background-color: rgba(242, 242, 242, .7);
         position: absolute;
         left: 0.1%;
         text-align: center;
-        padding-top: 45px;
+        padding-top: 65px;
         padding-left: 10px;
         padding-bottom: 47px;
         top: 60.2%;
@@ -2401,23 +2409,22 @@ a:link { text-decoration: none; }
 
     /*About Us Section Left */
         #about-us{
-        height: 60em;
-        max-width: 412px;
+        height:1040px;
+        width: 412px;
         background-color: #2b6777;
-        position: relative;  
+        position: relative;
     }
 
     .about-left{     
         margin-right: 55px;
         text-align: center;
-        max-width: 70%;
+        width: 70%;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
         letter-spacing: 3px;
         color: white;
         font-size: 13px;
         font-weight: 100;
         top: 25px;
-        margin-bottom: 900x;
         padding-right: 30px;
         position: absolute;
         right: -9%;
@@ -2435,72 +2442,74 @@ a:link { text-decoration: none; }
     /*About Us Section right */
     #slide-position{
         float: left;
-        max-width: 371px;
-        max-height: 30em;
-        justify-content: flex-end;
+        width: 412px;
+        height: 15em;
         background-color: #c8d8e4; 
         position: relative;
+        margin-top: 900px;
+        justify-content: flex-end;
     }
 
     #about-image {
-        max-width: 412px;
+        width: 310px;
         margin-right: 85px;
         position: absolute;  
-        max-height: 95%;
-        left: 21px;
-        top: 0.750em;
+        height: 90%;
+        left: 13%;
+        top: 5%;
     }
 
-    /*  Mid Row -landing Page Section*/
+ /*  Mid Row -landing Page Section*/
     .mid-row{
-        background-color: #fff;
-        padding top: 5px;
-        max-width: 90%;
-        max-height: 1200px ;
-        position: relative;
-    }
+    background-color: #fff;
+    padding-top: 5px;
+    max-width: 90%;
+    max-height: 1200px ;
+    position: relative;
+    }   
 
     .row {
-        float: left;
-    }
+    float: left;
+    }   
 
     #media-pic1{
-        width: 300px;
-        padding-top: 15px;
-        position: absolute;
-        left: 14.5%;
+    width: 400px;
+    padding-top: 15px;
+    position: absolute;
+    left: 14.5%;
+    top:-17%;
     }
 
     #center-pic{
-        width: 300px;
-        position: absolute;
-        left: 14.5%;
-        top: 38%;
+    width: 400px;
+    position: absolute;
+    left: 14.5%;
+    top: 25%;
     }
-    
+
     #pos-right{
-        width: 300px;
-        position: absolute;
-        left: -5%;
-        top: 69%;
+    width: 400px;
+    position: absolute;
+    left: -5%;
+    top: 62%;
     }
 
     #image1{
-        width:  150px;
-        height: 150px;
-        object-fit: cover;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
     }
 
     #image2{
-        width:  150px;
-        height: 150px;
-        object-fit: cover;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
     }
 
     #image3{
-        width:  150px;
-        height: 150px;
-        object-fit: cover;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
     }
 
     /*footer*/
@@ -2519,7 +2528,7 @@ a:link { text-decoration: none; }
     }
 
     .menu i {
-        font-size: 180%;
+        font-size: 200%;
         margin-left: 15px;
         margin-bottom: 100px;
     }
@@ -2603,7 +2612,7 @@ a:link { text-decoration: none; }
     form{
         border: 1px solid #52ab98;
         font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-        margin: 600px 230px 0 200px;
+        margin: 650px 200px 0 280px;
     }
 
     #m-ticket{
@@ -2809,7 +2818,7 @@ a:link { text-decoration: none; }
         font-size: 13px;
         font-weight: 100;
         top: 25px;
-        margin-bottom: 900x;
+        margin-bottom: 900px;
         padding-right: 30px;
         position: absolute;
         right: -9%;
@@ -2835,7 +2844,7 @@ a:link { text-decoration: none; }
     }
 
     #about-image {
-        max-width: 350px;
+        max-width:350px;
         margin-right: 85px;
         position: absolute;  
         max-height: 85%;
@@ -2846,7 +2855,7 @@ a:link { text-decoration: none; }
     /*  Mid Row -landing Page Section*/
     .mid-row{
         background-color: #fff;
-        padding top: 5px;
+        padding-top: 5px;
         max-width: 90%;
         max-height: 1200px ;
         position: relative;
