@@ -8,23 +8,23 @@ GUS site has been exhaustively tested. All the code has been run through the W3C
 
 ##### Home Page
 
-
+<img src="./assets/read images/validwarn.jpg">
 
 ##### Speaker Page
 
-
+<img src="./assets/read images/noerrors.jpg">
 
 ##### Schedule Page
 
-
+<img src="./assets/read images/noerrors.jpg">
 
 ##### Venue Page
 
-
+<img src="./assets/read images/noerrors.jpg">
 
 ##### Ticket Page
 
-
+<img src="./assets/read images/noerrors.jpg">
 
 ### The CSS validator results are below:
 
@@ -42,10 +42,6 @@ GUS site was tested on the follwing browsers with no visible complication for th
     <li> Microsoft Edge </li>
     <li> Google Chrome </li>
 </ul>
-
-## Known Bugs
-
-### unresolved 
 
 ## Supplementary Testing
 

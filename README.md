@@ -90,11 +90,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul
 
-
-
 <img src="./assets/read images/venue.jpg" >
-
-
 
  #### Venue
 
@@ -121,7 +117,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul>  
 
-<img src="./assets/read images/ticket.jpg" >
+<img src="./assets/read images/venue.png">
 
 #### Ticket
 
@@ -142,7 +138,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     <li> Once clicked, new tabs will open to keep the user on the landing page if clicked. </li>
 </ul>
 
-
+<img src="./assets/read images/thankyou.PNG">
 
 ### Thank You
 
