@@ -90,7 +90,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul
 
-<img src="./assets/read images/venue.jpg" >
+<img src="./assets/read images/venue.jpg">
 
 #### Venue
 
