@@ -5,7 +5,7 @@ are seeking information about the event or users who want to attend.
 
 Users of the site will be able to find all the information regarding the event including location, Speakers, Schedule, Venue and how to register for tickets.
 
-Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io/European-UCITS-Summit/)
+Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io/Global-UCITS-Summit/)
 
 
 
@@ -18,15 +18,15 @@ Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io
     <li> As a user I want to understand the purpose of the site upon loading it </li>
     <li> As a user I want to be able to purchase an event ticket </li>
     <li> As a user I want to know the location of the event </li>
-    <li> As a user I want o know the schedule and who will be speaking at the event </li>
+    <li> As a user I want to know the schedule and who will be speaking at the event </li>
 </ul>
 
 ## Site Structure
 
-GUS website has five pages. [The home page](https://gnoonandev.github.io/European-UCITS-Summit/) is the default loading page, Ticket, Speakers, Schedule and Venue pages 
-is all accessible from the navigation bar.
+GUS website has five pages. [The home page](https://gnoonandev.github.io/Global-UCITS-Summit/) is the default loading page, Ticket, Speakers, Schedule and Venue pages 
+is all accessible from the navigation bar
 
-The logo in footer section is linked to homepage to allow the user to return home page.
+The logo in footer section is linked to homepage to allow the user to return home page
 
 ## Design
 
@@ -156,7 +156,37 @@ Please refer to [here](TESTING.md) for more information on testing Global UCITS 
 I have created the project using Github, from there I used Gitpod to write my code. Then I used commit git followed by "git push" to my GitHub repository. 
 I've deployed this project through GitHub.
 
-The live link to the website can be found [here](https://gnoonandev.github.io/European-UCITS-Summit/) 
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps;
+
+<ol>
+    <li> In the GitHub repository, navigate to the Settings tab as teh top of the page. </li>
+    <li> Once in Settings, navigate to the Pages tab on the left hand side. </li>
+    <li> Under the Source section, select the branch to master, then save.</li>
+    <li> Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. </li>
+</ol>
+
+### Forking the GitHub Repository
+
+<ol>
+    <li> Log in to GitHub and locate the [GitHub Repository](https://github.com/gnoonandev/Global-UCITS-Summit) </li>
+    <li> At the top right hand side of the Repository page, locate the "Fork" Button.</li>
+    <li> Click on the icon to create a copy of the original repository in your GitHub Account.</li>
+</ol>
+
+### Making a Local Clone
+
+<ol>
+    <li> Log in to GitHub and locate the [GitHub Repository](https://github.com/gnoonandev/Global-UCITS-Summit) </li>
+    <li> Click on the code button located between the Add File and Gitpod Buttons</li>
+    <li> Open Git Bash</li>
+    <li> Change the current working directory to the location where you want the cloned directory to be made </li>
+    <li> Type git clone, and then paste the URL copied from GitHub </li>
+    <li> Press enter and the local clone will be created</li>
+</ol>
+
+The live link to the website can be found [here](https://gnoonandev.github.io/Global-UCITS-Summit/) 
 
 The live link to the Github repository can be found [here](https://github.com/gnoonandev/European-UCITS-Summit)
 
