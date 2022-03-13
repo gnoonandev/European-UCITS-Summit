@@ -49,7 +49,7 @@ GUS site was tested on the follwing browsers with no visible complication for th
 
 ## Supplementary Testing
 
-The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)in Chrome Developer Tools to test each of the pages for;
+The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for;
 
 <ul>
     <li> Performance </li>

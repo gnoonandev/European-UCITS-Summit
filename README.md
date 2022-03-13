@@ -90,9 +90,13 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul
 
+
+
 <img src="./assets/read images/venue.jpg">
 
-#### Venue
+
+
+    #### Venue
 
 <ul>
     <li> 
@@ -170,7 +174,7 @@ The project was deployed to GitHub Pages using the following steps;
 ### Forking the GitHub Repository
 
 <ol>
-    <li> Log in to GitHub and locate the [GitHub Repository](https://github.com/gnoonandev/Global-UCITS-Summit) </li>
+    <li> Log in to GitHub and locate the GitHub Repository</li>
     <li> At the top right hand side of the Repository page, locate the "Fork" Button.</li>
     <li> Click on the icon to create a copy of the original repository in your GitHub Account.</li>
 </ol>
@@ -178,7 +182,7 @@ The project was deployed to GitHub Pages using the following steps;
 ### Making a Local Clone
 
 <ol>
-    <li> Log in to GitHub and locate the [GitHub Repository](https://github.com/gnoonandev/Global-UCITS-Summit) </li>
+    <li> Log in to GitHub and locate the GitHub Repository </li>
     <li> Click on the code button located between the Add File and Gitpod Buttons</li>
     <li> Open Git Bash</li>
     <li> Change the current working directory to the location where you want the cloned directory to be made </li>
@@ -188,7 +192,7 @@ The project was deployed to GitHub Pages using the following steps;
 
 The live link to the website can be found [here](https://gnoonandev.github.io/Global-UCITS-Summit/) 
 
-The live link to the Github repository can be found [here](https://github.com/gnoonandev/European-UCITS-Summit)
+The live link to the Github repository can be found [here](https://github.com/gnoonandev/Global-UCITS-Summit)
 
 ## Credit
 
