@@ -340,7 +340,6 @@ footer {
     position: absolute;
     left: 17.4%;
     padding-bottom: 10px;
-
 }
 
 .map-center{
@@ -350,6 +349,7 @@ footer {
 }
 
 /*Ticket Page*/
+
 #ticket-head {
     padding-top: 1.5%;
 }
@@ -707,7 +707,6 @@ a:link { text-decoration: none; }
         position: relative;  
     }
 
-
     #venue-header{
         font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight: bold;
@@ -735,8 +734,7 @@ a:link { text-decoration: none; }
         left: 50%;
         top: 25%;
     }
-
-      
+ 
     /* ticket page / form section */
     #ticket-why{
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
@@ -757,7 +755,7 @@ a:link { text-decoration: none; }
 
     #media-header{
         width: 800px;
-        left: -11.5%;
+        left: -4%;
         position: absolute;
     }
     
@@ -802,9 +800,6 @@ a:link { text-decoration: none; }
     #speaker1{
         height: 16.9rem;
     }
-
-
-
 }
 
 /*For Desktop screens 1600px width and down*/
@@ -861,16 +856,15 @@ a:link { text-decoration: none; }
         left: 8.5%;
     }
 
-    #media-header{
-        width: 800px;
-        left: -12.5%;
-        position: absolute;
-    }
-
     #content-midven{
         position: absolute;
         left: 16.3%;
         top:23%;
+    }
+
+    /*ticket*/
+    #media-header{
+        left: -4.3%;
     }
 
     /*Schedaule Page*/
@@ -997,23 +991,22 @@ width: 1400px;
     #header-venue{
         position: absolute;
         top: 10%;
-        left: 2.6%;
+        left: -16%;
     }
 
     .content-mid{
         padding-top: 2.5rem;
     }
 
-    #media-header{
-        width: 800px;
-        left: -14.5%;
-        position: absolute;
-    }
-
     #content-midven{
         position: absolute;
         left: 11.5%;
         top:23%;
+    }
+
+    /*ticket*/
+    #media-header{
+        left: -5%;
     }
 
     /*Schedaule Page*/
@@ -1162,10 +1155,9 @@ width: 1400px;
         top:23%;
     }
 
+    /*ticker*/
     #media-header{
-        width: 800px;
-        left: -16%;
-        position: absolute;
+        left: -5.5%;
     }
 
     /*Speaker*/
@@ -1342,6 +1334,10 @@ width: 1400px;
         left: 15%;
     }
 
+    #media-header{
+        left: -5.8%;
+    }
+
     /*Venue*/
     #header-venue{
         position: absolute;
@@ -1359,11 +1355,6 @@ width: 1400px;
         padding-top: 2.5rem;
     }
 
-    #media-header{
-        width: 800px;
-        left: -17%;
-        position: absolute;
-    }
 
     /* ticket page / form section */
     #ticket-why{
@@ -1640,7 +1631,9 @@ width: 1400px;
     }
 
     /* ticket page / form section */
-
+    #media-header{
+        left: -11.4%;
+    }
     form{
         padding-right: 3%;
         border: 3px solid #52ab98;
@@ -1908,6 +1901,10 @@ width: 1400px;
     }
 
     /* ticket page / form section */
+    #media-header{
+        left: -11.5%;
+    }
+
     form{
         padding-right: 3%;
         border: 3px solid #52ab98;
@@ -2195,6 +2192,10 @@ width: 1400px;
     }
 
     /* ticket page / form section */
+
+    #media-header{
+        left: -11%;
+    }
     form{
         padding-right: 3%;
         border: 3px solid #52ab98;
@@ -2749,7 +2750,6 @@ width: 1400px;
         list-style-type: none;
         font-size: 100%;
     }
- 
     
     #ticket-nav {
         border: solid 0.5px #2b6777;
@@ -2758,9 +2758,7 @@ width: 1400px;
         bottom: 1%;
     }
     
-    
     /*Background Image*/
-
     #img-container{
         position: relative;
         width: 412px;
@@ -2802,7 +2800,7 @@ width: 1400px;
 
     /*About Us Section Left */
         #about-us{
-            max-height: 60em;
+            max-height: 58em;
             max-width: 412px;
             background-color: #2b6777;
             position: relative;  
@@ -2837,18 +2835,18 @@ width: 1400px;
     #slide-position{
         float: left;
         max-width: 413px;
-        max-height: 32em;
+        max-height: 24em;
         justify-content: flex-end;
         background-color: #c8d8e4; 
         position: relative;
     }
 
     #about-image {
-        max-width:350px;
-        margin-right: 85px;
+        max-width:330px;
+        margin-right: 75px;
         position: absolute;  
         max-height: 85%;
-        left: 25px;
+        right: 25%;
         top: 0.750em;
     }
 
@@ -2856,53 +2854,84 @@ width: 1400px;
     .mid-row{
         background-color: #fff;
         padding-top: 5px;
-        max-width: 90%;
-        max-height: 1200px ;
+        max-width: 408px;
+        max-height: 1800px ;
         position: relative;
     }
 
-    .row {
-        float: left;
-    }
-
     #media-pic1{
-        width: 300px;
+        width: 400px;
         padding-top: 15px;
         position: absolute;
-        left: 14.5%;
+        left: 8.5%;
+        top:-3.5%;
     }
 
     #center-pic{
-        width: 300px;
+        width: 400px;
         position: absolute;
-        left: 14.5%;
-        top: 38%;
+        left: 8.5%;
+        top: 30%;
     }
     
     #pos-right{
-        width: 300px;
+        width: 400px;
         position: absolute;
-        left: -5%;
-        top: 69%;
+        left: -10.5%;
+        bottom: -1%;
     }
 
     #image1{
-        width:  150px;
-        height: 150px;
+        width:  130px;
+        height: 130px;
         object-fit: cover;
     }
 
     #image2{
-        width:  150px;
-        height: 150px;
+        width:  130px;
+        height: 130px;
         object-fit: cover;
     }
 
     #image3{
-        width:  150px;
-        height: 150px;
+        width:  130px;
+        height: 130px;
         object-fit: cover;
     }
+
+    .grid h5 {
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    
+    .grid h3{
+        text-decoration: none;
+        font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px
+    }
+    
+    .grid, h3, h5 {
+        line-height: 20px;
+    }
+    
+    .grid p {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", helvetica, Arial, "Lucida Grande", sans-serif;
+        letter-spacing: 1.5px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*Speaker*/
  
@@ -2915,7 +2944,6 @@ width: 1400px;
         bottom:108.5%;
     }
     
-
     /* thank you page */
     #Thank-you{
         width: 300px;
@@ -2923,3 +2951,4 @@ width: 1400px;
         padding-left: 35px;
     }
 }
+
