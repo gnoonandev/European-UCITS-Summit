@@ -7,7 +7,7 @@ Users of the site will be able to find all the information regarding the event i
 
 Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io/Global-UCITS-Summit/)
 
-
+<img src="./assets/read images/response.jpg">
 
 ## User Experience (UX)
 
