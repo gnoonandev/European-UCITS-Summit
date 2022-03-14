@@ -13,7 +13,7 @@ Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io
 
 <ul>
     <li> As a user I want to connect with GUS on social media </li>
-    <li> As a user I want to know more about Wawas Woods </li>
+    <li> As a user I want to know more about Global UCITS Summit (GUS) </li>
     <li> As a user I want to have an intuitive navigation so I know right away where I can find which information </li>
     <li> As a user I want to understand the purpose of the site upon loading it </li>
     <li> As a user I want to be able to purchase an event ticket </li>
@@ -26,7 +26,7 @@ Welcome to the journey though [Global UCITS Summit](https://gnoonandev.github.io
 GUS website has five pages. [The home page](https://gnoonandev.github.io/Global-UCITS-Summit/) is the default loading page, Ticket, Speakers, Schedule and Venue pages 
 is all accessible from the navigation bar
 
-The logo in footer section is linked to homepage to allow the user to return home page
+The logo in footer section is linked to homepage to allow the user to return to the home page
 
 ## Design
 
@@ -65,8 +65,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
         On the right side of the navigation bar, it provides links to the Ticket, Speaker, Schedule and Venue pages, which open new tabs to keep the user on the 
         landing page if clicked
     </li>
-    <li> The navigation menu clearly tells the user the name of the event and makes the different sections easy to navigate </li>
-    <li> The Navigation menu emphasises the ticket page for the user with a border </li>
+    <li> The navigation menu clearly tells the user the name of the event and makes the different sections easy to navigate </li>  
 </ul>
 
 <img src="./assets/read images/heroimage.jpg" >
@@ -90,7 +89,7 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul
 
-<img src="./assets/read images/venue.png">
+ <img src="./assets/read images/venue.png">
 
 #### Venue
 
@@ -204,11 +203,15 @@ The live link to the Github repository can be found [here](https://github.com/gn
     <li> Credit to Kevin Powell YouTube channel that help me understand CSS position in more details  </li>
     <li> Credit to Timothy Arterbury Youtube channel that help me understand tables in HTML in more detail.</li>
     <li> Credit to W3schools website that I used to refernce code I wrote</li>
-    <li> The love Runiing project, this help me undeerstand the format that was required and provded the intial direction to my project </li>
+    <li> The love Runiing project, this help me understand the format that was required and provded the intial direction for my project </li>
     <li> All images where taken from open source </li>
     <li> Font awesome for the social media icons</li>
     <li> The Speaker images were taken from the Irish Fund Website </li>
 </ul>
+
+Font Awesome site [here](https://fontawesome.com/)
+
+Irish Fund site [here](https://www.irishfunds.ie/)
 
 ## Future implantations 
 
