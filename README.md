@@ -90,26 +90,9 @@ The logo in footer section is linked to homepage to allow the user to return hom
     </li>
 </ul
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <img src="./assets/read images/venue.png">
 
- #### Venue
+#### Venue
 
 <ul>
     <li> 
@@ -230,9 +213,13 @@ The live link to the Github repository can be found [here](https://github.com/gn
 ## Future implantations 
 
 <ul>
-    <li> For the landing page, add an image slider to the about section, to showcase the user more images of the event/ venue  </li>
+    <li> For the home page and about sections in the other pages, add an image slider to the about section, to showcase the user more images of the event/ venue  </li>
     <li> Add useful transport links to the venue page </li>
     <li> Sticky Navigation menu, to allow the user more accessibility when scrolling through website </li>
     <li> Speaker profile picture, make them more dynamics by zooming out when use interacts with them </li>
     <li> Add a view profile button to each speak that allows the user to read more about them</li>
+    <li> Add a view profile button to each speak that allows the user to read more about them</li>
+    <li> Add  more Speaker to the Speaker page</li>
 </ul>
+
+Back to [Top](README.md)
