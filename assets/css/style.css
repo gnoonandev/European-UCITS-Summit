@@ -2476,6 +2476,12 @@ width: 1400px;
         position: relative;
     }
 
+    #media-button{
+        margin-left: 75px;
+        width: 300px;
+        display: flex;
+    }
+
     /*About Us Section right */
     #slide-position{
         float: left;
@@ -2881,14 +2887,12 @@ width: 1400px;
         border: solid 2px #2b6777;
         border-radius: 2.125em;
         padding: 0.5px 20px ;
- 
     }
 
     .button-cover{
         margin-left: 15px;
     }
 
-    
     #cover-header{
         font-size: 200%;
         color: #52ab98;
@@ -2904,6 +2908,13 @@ width: 1400px;
     .button-cover{
         margin-left: 6px;
     }
+
+    #media-button{
+        margin-left: 75px;
+        width: 300px;
+        display: flex;
+    }
+
 
     /*About Us Section Left */
         #about-us{
